@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=UnifrakturMaguntia&display=swap');
+.topnav{
+    overflow: hidden;
+    font-family: "Bebas Neue", sans-serif;
+    position: sticky;
+
+}
+.topnav a {
+    float: left;
+    color: #FAC411;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.topnav a:hover {
+    color: #1130FA;
+}
+.topnav img{
+    height:7%;
+    width:5%;
+    float: right;
+    padding-right: 5%;
+}
+
+body{
+    background-image: linear-gradient(to right, #504B3B, #050E4A 10%, #050E4A 90%, #504B3B );
+    margin: 0%;
+    
+}
+body p{
+    font-family: "Libre Baskerville", serif;
+}
+.wrapper{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #E0C15A;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+}
+.banner{
+    display: flex;
+    justify-content: center;
+
+}
+.banner img{
+    width: 60%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    outline-style: inset;
+    outline-color: #A58E43;
+    filter:grayscale(40%);
+}
+video{
+    outline-style: inset;
+    outline-color: #A58E43;
+}
+.banner img:hover{
+    width: 60%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    outline-style: inset;
+    outline-color: #A58E43;
+    filter:grayscale(0%);
+}
+h1{
+    font-family: "UnifrakturMaguntia", cursive;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+footer p{
+    width: 40%;
+    font-family: "Bebas Neue", sans-serif;
+    color:#E0C15A;
+}
+
+footer img{
+    height: 7%;
+    width:5%;
+}
+
+
+
+.buyButton {
+  appearance: none;
+  background-color: #E0C15A;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #1130FA;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 15%;
+  will-change: transform;
+}
+
+.buyButton:disabled {
+  pointer-events: none;
+  color: #1130FA;
+}
+
+.buyButton:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.buyButton:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+.triplePhoto{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.triplePhotoB{
+    flex-wrap: wrap;
+}
+.triplePhoto img{
+    width:30%;
+    height: auto;
+    outline-style: inset;
+    outline-color: #A58E43;
+}
+.triplePhotoB img{
+    width:30%;
+    height: auto;
+
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.social a{
+   font-size: 40px;
+}
+.social i{
+    margin-left:5px;
+}
+.social a:link{
+   color: #E0C15A;
+}
+.social a:visited{
+    color: #A58E43;
+}
+.locations{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.location{
+    overflow: hidden;
+    height: 10%;
+}
+
+.location img{
+   height: 15%;
+   overflow: hidden;
+}
+.Deluxe{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Bonus{
+    max-width: 30%;
+}
+.Bonus img{
+    max-width: 100%;
+}
+.shop a{
+    font-size: 40px;
+ }
+ .shop i{
+     margin-left:5px;
+ }
+ .shop a:link{
+    color: #E0C15A;
+ }
+ .shop a:visited{
+     color: #A58E43;
+ }
+ .shop{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
